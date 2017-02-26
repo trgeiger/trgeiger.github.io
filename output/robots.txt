@@ -1,0 +1,4 @@
+Sitemap: http://taylergeiger.com/sitemapindex.xml
+
+User-Agent: *
+Host: taylergeiger.com
