@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1488820664.3710227
+_modified_time = 1488821104.9672332
 _enable_loop = True
 _template_filename = '/home/tayler/virtualenvs/trgeiger.github.io/lib/python3.6/site-packages/nikola/data/themes/base/templates/index.tmpl'
 _template_uri = 'index.tmpl'
@@ -36,31 +36,31 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        parent = context.get('parent', UNDEFINED)
         posts = context.get('posts', UNDEFINED)
-        nextlink = context.get('nextlink', UNDEFINED)
-        date_format = context.get('date_format', UNDEFINED)
-        index_file = context.get('index_file', UNDEFINED)
-        prev_next_links_reversed = context.get('prev_next_links_reversed', UNDEFINED)
-        permalink = context.get('permalink', UNDEFINED)
-        author_pages_generated = context.get('author_pages_generated', UNDEFINED)
-        pagination = _mako_get_namespace(context, 'pagination')
-        helper = _mako_get_namespace(context, 'helper')
         current_page = context.get('current_page', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        front_index_header = context.get('front_index_header', UNDEFINED)
-        prevlink = context.get('prevlink', UNDEFINED)
-        def content_header():
-            return render_content_header(context._locals(__M_locals))
-        page_links = context.get('page_links', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
+        date_format = context.get('date_format', UNDEFINED)
+        page_links = context.get('page_links', UNDEFINED)
+        index_teasers = context.get('index_teasers', UNDEFINED)
+        pagination = _mako_get_namespace(context, 'pagination')
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
-        comments = _mako_get_namespace(context, 'comments')
-        _link = context.get('_link', UNDEFINED)
-        index_teasers = context.get('index_teasers', UNDEFINED)
+        prev_next_links_reversed = context.get('prev_next_links_reversed', UNDEFINED)
+        index_file = context.get('index_file', UNDEFINED)
+        author_pages_generated = context.get('author_pages_generated', UNDEFINED)
         pagekind = context.get('pagekind', UNDEFINED)
+        parent = context.get('parent', UNDEFINED)
+        helper = _mako_get_namespace(context, 'helper')
+        comments = _mako_get_namespace(context, 'comments')
+        prevlink = context.get('prevlink', UNDEFINED)
+        front_index_header = context.get('front_index_header', UNDEFINED)
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        _link = context.get('_link', UNDEFINED)
+        nextlink = context.get('nextlink', UNDEFINED)
+        def content_header():
+            return render_content_header(context._locals(__M_locals))
+        permalink = context.get('permalink', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -84,12 +84,12 @@ def render_body(context,**pageargs):
 def render_extra_head(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        permalink = context.get('permalink', UNDEFINED)
-        def extra_head():
-            return render_extra_head(context)
         posts = context.get('posts', UNDEFINED)
         index_file = context.get('index_file', UNDEFINED)
         parent = context.get('parent', UNDEFINED)
+        permalink = context.get('permalink', UNDEFINED)
+        def extra_head():
+            return render_extra_head(context)
         __M_writer = context.writer()
         __M_writer('\n    ')
         __M_writer(str(parent.extra_head()))
@@ -107,25 +107,25 @@ def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         posts = context.get('posts', UNDEFINED)
-        nextlink = context.get('nextlink', UNDEFINED)
-        date_format = context.get('date_format', UNDEFINED)
-        prev_next_links_reversed = context.get('prev_next_links_reversed', UNDEFINED)
-        author_pages_generated = context.get('author_pages_generated', UNDEFINED)
-        pagination = _mako_get_namespace(context, 'pagination')
-        helper = _mako_get_namespace(context, 'helper')
         current_page = context.get('current_page', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        front_index_header = context.get('front_index_header', UNDEFINED)
-        prevlink = context.get('prevlink', UNDEFINED)
-        page_links = context.get('page_links', UNDEFINED)
-        def content_header():
-            return render_content_header(context)
         def content():
             return render_content(context)
-        comments = _mako_get_namespace(context, 'comments')
-        _link = context.get('_link', UNDEFINED)
+        date_format = context.get('date_format', UNDEFINED)
+        page_links = context.get('page_links', UNDEFINED)
         index_teasers = context.get('index_teasers', UNDEFINED)
+        pagination = _mako_get_namespace(context, 'pagination')
+        prev_next_links_reversed = context.get('prev_next_links_reversed', UNDEFINED)
+        author_pages_generated = context.get('author_pages_generated', UNDEFINED)
         pagekind = context.get('pagekind', UNDEFINED)
+        helper = _mako_get_namespace(context, 'helper')
+        comments = _mako_get_namespace(context, 'comments')
+        prevlink = context.get('prevlink', UNDEFINED)
+        front_index_header = context.get('front_index_header', UNDEFINED)
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        _link = context.get('_link', UNDEFINED)
+        nextlink = context.get('nextlink', UNDEFINED)
+        def content_header():
+            return render_content_header(context)
         __M_writer = context.writer()
         __M_writer('\n')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content_header'):
