@@ -6,31 +6,31 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://taylergeiger.com/</loc>
+  <loc>http://tayler.me/</loc>
   <lastmod>2017-03-06T17:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://taylergeiger.com/2017/</loc>
+  <loc>http://tayler.me/2017/</loc>
   <lastmod>2017-03-06T17:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://taylergeiger.com/archive.html</loc>
-  <lastmod>2017-03-06T17:14:00Z</lastmod>
+  <loc>http://tayler.me/archive.html</loc>
+  <lastmod>2017-03-06T17:17:00Z</lastmod>
  </url>
  <url>
-  <loc>http://taylergeiger.com/categories/</loc>
+  <loc>http://tayler.me/categories/</loc>
   <lastmod>2017-02-26T02:35:00Z</lastmod>
  </url>
  <url>
-  <loc>http://taylergeiger.com/galleries/</loc>
+  <loc>http://tayler.me/galleries/</loc>
   <lastmod>2017-02-26T02:35:00Z</lastmod>
  </url>
  <url>
-  <loc>http://taylergeiger.com/listings/</loc>
+  <loc>http://tayler.me/listings/</loc>
   <lastmod>2017-02-26T02:35:00Z</lastmod>
  </url>
  <url>
-  <loc>http://taylergeiger.com/posts/first/</loc>
+  <loc>http://tayler.me/posts/first/</loc>
   <lastmod>2017-03-06T17:14:00Z</lastmod>
  </url>
 </urlset>

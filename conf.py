@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Tayler Geiger"  # (translatable)
 BLOG_TITLE = "Tayler Geiger"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://taylergeiger.com/"
+SITE_URL = "http://tayler.me/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://taylergeiger.com/"
