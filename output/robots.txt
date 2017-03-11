@@ -1,4 +1,0 @@
-Sitemap: http://tayler.me/sitemapindex.xml
-
-User-Agent: *
-Host: tayler.me
