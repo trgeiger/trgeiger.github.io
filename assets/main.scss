@@ -16,7 +16,7 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color:       #4C566A;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -39,5 +39,5 @@ $on-laptop:        800px;
 @import "minima";
 
 body {
-    background-color: #4C566A;
+    background-color: #D8DEE9;
 }
