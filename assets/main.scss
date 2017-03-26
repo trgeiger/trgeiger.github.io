@@ -12,9 +12,9 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #2E3440;
+$background-color: #D8DEE9;
+$brand-color:      #5E81AC;
 
 $grey-color:       #4C566A;
 $grey-color-light: lighten($grey-color, 40%);
@@ -39,5 +39,5 @@ $on-laptop:        800px;
 @import "minima";
 
 body {
-    background-color: #D8DEE9;
+   
 }
