@@ -66,3 +66,8 @@ h1, h2, .page-heading, .post-header {
     font-family: 'Ubuntu', sans-serif;
     color: #BF616A;
 }
+
+.site-header.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
