@@ -39,7 +39,7 @@ $on-laptop:        800px;
 @import "minima";
 
 
-
+// Highlight color settings
 ::-moz-selection { /* Code for Firefox */
     color: #ECEFF4;
     background: #BF616A;
@@ -59,11 +59,18 @@ $on-laptop:        800px;
     color: #BF616A;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+}
+
 footer {
     background: #D8DEE9;
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
 }
 
 h1, h2, .page-heading, .post-header {
