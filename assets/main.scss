@@ -52,7 +52,11 @@ $on-laptop:        800px;
 
 .site-header {
     font-family: 'Ubuntu', sans-serif;
-    background: #D8DEE9;
+    border-style: none;
+}
+
+.site-footer {
+    border-style: none;
 }
 
 .site-title {
@@ -69,9 +73,6 @@ body {
   flex: 1;
 }
 
-footer {
-    background: #D8DEE9;
-}
 
 h1, h2, .page-heading, .post-header {
     font-family: 'Ubuntu', sans-serif;
