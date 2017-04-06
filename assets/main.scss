@@ -53,14 +53,31 @@ $on-laptop:        800px;
 .site-header {
     font-family: 'Ubuntu', sans-serif;
     border-style: none;
+    margin-bottom: 50px;
 }
 
 .site-footer {
     border-style: none;
 }
 
-.site-title {
+.social-media-list li {
+    display: inline;
+}
+
+.footer-wrapper {
+    text-align: center;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.site-title:link, .site-title:visited, .page-link:link, .page-link:visited {
     color: #BF616A;
+}
+
+.site-title:hover, .page-link:hover {
+    color: darken(#BF616A, 20%)
 }
 
 body {
@@ -83,3 +100,4 @@ h1, h2, .page-heading, .post-header {
     display: flex;
     justify-content: space-between;
 }
+
