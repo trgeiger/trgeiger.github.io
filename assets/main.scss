@@ -2,6 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+// Import Nord color palette from: https://github.com/arcticicestudio/nord
+@import "nord";
 
 // Our variables
 $base-font-family: 'Crimson Text', serif;
@@ -42,12 +44,12 @@ $on-laptop:        800px;
 // Highlight color settings
 ::-moz-selection { /* Code for Firefox */
     color: #ECEFF4;
-    background: #BF616A;
+    background: $nord11;
 }
 
 ::selection {
     color: #ECEFF4;
-    background: #BF616A;
+    background: $nord11;
 }
 
 .site-header {
@@ -60,24 +62,27 @@ $on-laptop:        800px;
     border-style: none;
 }
 
-.social-media-list li {
-    display: inline;
+.social-media-list {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.social-media-list .fa, .copyright {
+    color: $nord11;
 }
 
 .footer-wrapper {
-    text-align: center;
-}
-
-.footer-list {
+    display: list-item;
     list-style: none;
 }
 
 .site-title:link, .site-title:visited, .page-link:link, .page-link:visited {
-    color: #BF616A;
+    color: $nord11;
 }
 
 .site-title:hover, .page-link:hover {
-    color: darken(#BF616A, 20%)
+    color: darken($nord11, 20%)
 }
 
 body {
@@ -91,9 +96,9 @@ body {
 }
 
 
-h1, h2, .page-heading, .post-header {
+h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
     font-family: 'Ubuntu', sans-serif;
-    color: #BF616A;
+    color: $nord15;
 }
 
 .site-header.wrapper {
