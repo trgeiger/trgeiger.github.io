@@ -69,7 +69,7 @@ $on-laptop:        800px;
 }
 
 .social-media-list .fa, .copyright {
-    color: $nord11;
+    color: $nord10;
 }
 
 .footer-wrapper {
@@ -98,7 +98,7 @@ body {
 
 h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
     font-family: 'Ubuntu', sans-serif;
-    color: $nord15;
+    color: $nord0;
 }
 
 .site-header.wrapper {
@@ -106,3 +106,6 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
     justify-content: space-between;
 }
 
+.post-meta {
+    color: $nord9;
+}
