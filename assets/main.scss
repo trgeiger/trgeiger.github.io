@@ -44,12 +44,12 @@ $on-laptop:        800px;
 
 // Highlight color settings
 ::-moz-selection { /* Code for Firefox */
-    color: #ECEFF4;
+    color: $nord4;
     background: $nord11;
 }
 
 ::selection {
-    color: #ECEFF4;
+    color: $nord4;
     background: $nord11;
 }
 
