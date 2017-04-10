@@ -102,6 +102,12 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
     color: $nord1;
 }
 
+.post-content {
+    h1, h2, h3, h4, h5, h6 {
+    padding-top: 15px;
+    }
+}
+
 .site-header.wrapper {
     display: flex;
     justify-content: space-between;
