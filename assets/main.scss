@@ -78,6 +78,10 @@ $on-laptop:        800px;
     list-style: none;
 }
 
+.site-title {
+    font-size: 30px;
+}
+
 .site-title:link, .site-title:visited, .page-link:link, .page-link:visited {
     color: $nord11;
 }
@@ -133,7 +137,12 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 @media only screen and (min-width: 401px) and (max-width: 961px) {
     .site-header{
         .wrapper {
-
+            display: flex;
+            justify-content: left;
+            align-items: flex-end;
+            .site-title {
+                margin-right: 50px;
+            }
         }
     }
 }
