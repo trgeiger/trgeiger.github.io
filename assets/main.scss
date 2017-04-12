@@ -111,11 +111,9 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 .site-header {
     .wrapper {
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
-        margin-left: 15px;
-        width: 60px;
     }
+    margin-bottom: 0px;
 }
 
 .post-meta {
@@ -124,8 +122,8 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  .site-header {
-    .wrapper {
+    .site-header {
+        .wrapper {
        
     }
   }
@@ -135,18 +133,21 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 @media only screen and (min-width: 401px) and (max-width: 961px) {
     .site-header{
         .wrapper {
-            width: auto;
-            flex-direction: row;
-            margin-left: 30px;
+
         }
     }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-  .site-header {
-      .wrapper {
-        position: fixed;
+    .site-header {
+        .wrapper {
+            position: fixed;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-top: 5px;
+            width: 60px;
       }
   }
 }
