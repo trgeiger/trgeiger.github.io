@@ -98,6 +98,7 @@ body {
 
 .page-content {
   flex: 1;
+  padding-top: 60px;
 }
 
 
@@ -150,13 +151,18 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
     .site-header {
+        position: absolute;
+        padding-top: 185px;
         .wrapper {
-            position: fixed;
+            position: absolute;
             flex-direction: column;
             justify-content: space-between;
             padding-left: 20px;
-            padding-top: 5px;
             width: 60px;
       }
   }
+  .navbar-fixed {
+    position: fixed;
+    padding-top: 0px;
+    }
 }
