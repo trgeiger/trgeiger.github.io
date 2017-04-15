@@ -59,7 +59,7 @@ body {
   background-color: $background-color;
 }
 
-div, main, header, footer {
+.above-footer, .site-header, .page-content, .site-footer, .wrapper {
     display: flex;
 }
 
@@ -71,13 +71,17 @@ div, main, header, footer {
 }
 
 .site-header {
+    background-color: gray;
     font-family: 'Ubuntu', sans-serif;
     padding: $spacing-unit;
     flex: initial;
-    width: 160px;
+    width: 200px;
     .wrapper {
-        display: flex;
-        justify-content: space-between;
+        display: absolute;
+        background: $nord9;
+        height: 150px;
+        border-radius: 5px;
+        padding: 15px;
     }
 }
 
@@ -86,6 +90,17 @@ div, main, header, footer {
     padding: $spacing-unit;
     flex: initial;
     max-width: $content-width;
+    flex-direction: column;
+    .wrapper {
+        display: block;
+    }
+}
+
+.subheader {
+    background: grey;
+    flex: initial;
+    width: 200px;
+    visibility: hidden;
 }
 
 .site-footer {
@@ -128,6 +143,9 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 
 // Padding and margins
 .post-content {
+    p {
+        padding-bottom: 15px;
+    }
     h1, h2, h3, h4, h5, h6 {
     padding-top: 15px;
     }
@@ -154,7 +172,9 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 }
 
 // tablet and monitor-sized styles
-@media only screen and (min-width: 401px) and (max-width: 961px) {
+@media only screen and (min-width: 401px) {
+    .menu-icon {
+      visibility: hidden;
     .site-header{
         .wrapper {
             display: flex;
@@ -167,27 +187,13 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
     }
 }
 
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-    .site-header {
-        background: gray;
-        display: flex;
-        .wrapper {
-            flex-direction: column;
-            justify-content: space-between;
-            background: $nord9;
-            border-radius: 5px;
-      }
-  }
-  .menu-icon {
-      visibility: hidden;
-  }
- // .navbar-fixed {
-   // position: fixed;
-   // padding-top: 20px;
-   // left: 100px;
-   // }
+
+    .navbar-fixed {
+        position: fixed;
+        padding-top: 0px;
+        }
 }
+
 
 // Highlight color settings
 ::-moz-selection { /* Code for Firefox */
