@@ -26,7 +26,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          600px;
+$on-phone:          600px;
 $on-laptop:        800px;
 
 // Minima also includes a mixin for defining media queries.
@@ -40,41 +40,61 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 
+html {
+    height: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+}
+
 div, main, header, footer {
     display: flex;
 }
 
-// Highlight color settings
-::-moz-selection { /* Code for Firefox */
-    color: $nord4;
-    background: $nord11;
-}
-
-::selection {
-    color: $nord4;
-    background: $nord11;
+.above-footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: $spacing-unit;
 }
 
 .site-header {
     font-family: 'Ubuntu', sans-serif;
-    border-style: none;
+    padding: $spacing-unit;
+    flex: initial;
+    width: 160px;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.page-content {
+    background: goldenrod;
+    padding: $spacing-unit;
+    flex: initial;
+    max-width: $content-width;
 }
 
 .site-footer {
-    border-style: none;
     background:red;
 }
 
 .social-media-list {
     display: flex;
     justify-content: space-around;
-    width: 25%;
 }
 
 .social-media-list .fa, .copyright {
@@ -84,6 +104,13 @@ div, main, header, footer {
 .footer-wrapper {
     display: list-item;
     list-style: none;
+}
+
+
+// Fonts and font sizing
+h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
+    font-family: 'Ubuntu', sans-serif;
+    color: $nord1;
 }
 
 .site-title {
@@ -98,48 +125,27 @@ div, main, header, footer {
     color: $nord11;
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-}
 
-.above-footer {
-    display: flex;
-    justify-content: space-around;
-}
-
-.page-content {
-    background: blue;
-}
-
-
-h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
-    font-family: 'Ubuntu', sans-serif;
-    color: $nord1;
-}
-
+// Padding and margins
 .post-content {
     h1, h2, h3, h4, h5, h6 {
     padding-top: 15px;
     }
 }
 
-.site-header {
-    .wrapper {
-        display: flex;
-        justify-content: space-between;
-    }
-}
 
+// Colors
 .post-meta {
     color: $nord9;
 }
 
+
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+    .page-content {
+        max-width: $on-phone;
+    }
     .site-header {
         .wrapper {
        
@@ -166,7 +172,6 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
     .site-header {
         background: gray;
         display: flex;
-        padding-top: 185px;
         .wrapper {
             flex-direction: column;
             justify-content: space-between;
@@ -174,9 +179,23 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
             border-radius: 5px;
       }
   }
+  .menu-icon {
+      visibility: hidden;
+  }
  // .navbar-fixed {
    // position: fixed;
    // padding-top: 20px;
    // left: 100px;
    // }
+}
+
+// Highlight color settings
+::-moz-selection { /* Code for Firefox */
+    color: $nord4;
+    background: $nord11;
+}
+
+::selection {
+    color: $nord4;
+    background: $nord11;
 }
