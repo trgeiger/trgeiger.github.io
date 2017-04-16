@@ -13,7 +13,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     15px;
 
 $text-color:       $nord0;
 $background-color: $nord4;
@@ -29,16 +29,6 @@ $content-width:    800px;
 $on-phone:          600px;
 $on-laptop:        800px;
 
-// Minima also includes a mixin for defining media queries.
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-
-// Import partials from the `minima` theme.
 
 html {
     height: 100%;
@@ -59,52 +49,57 @@ body {
   background-color: $background-color;
 }
 
-.above-footer, .site-header, .page-content, .site-footer, .wrapper {
+.above-footer, .site-header, .page-content, .site-footer, {
     display: flex;
 }
 
 .above-footer {
     flex: 1;
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     padding: $spacing-unit;
 }
 
 .site-header {
-    background-color: gray;
     font-family: 'Ubuntu', sans-serif;
     padding: $spacing-unit;
-    flex: initial;
-    width: 200px;
+    height: 80px;
+    width: 100%;
     .wrapper {
-        display: absolute;
-        background: $nord9;
-        height: 150px;
-        border-radius: 5px;
-        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 80px;
+        background-color: $nord8;
     }
 }
 
 .page-content {
-    background: goldenrod;
     padding: $spacing-unit;
-    flex: initial;
-    max-width: $content-width;
     flex-direction: column;
+    width: 100%;
     .wrapper {
         display: block;
+    }
+    li {
+        display: list-item;
+        list-style: none;
     }
 }
 
 .subheader {
     background: grey;
-    flex: initial;
-    width: 200px;
     visibility: hidden;
 }
 
 .site-footer {
-    background:red;
+    justify-content: center;
+    li {
+        display: list-item;
+        list-style: none;
+    }
 }
 
 .social-media-list {
@@ -126,6 +121,10 @@ body {
 h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
     font-family: 'Ubuntu', sans-serif;
     color: $nord1;
+}
+
+p {
+    font-size: $base-font-size;
 }
 
 .site-title {
@@ -164,34 +163,50 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
     .page-content {
         max-width: $on-phone;
     }
-    .site-header {
-        .wrapper {
-       
-    }
-  }
 }
 
-// tablet and monitor-sized styles
-@media only screen and (min-width: 401px) {
+// tablet
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+// desktop
+@media only screen and (min-width: 961px) {
+    .above-footer {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .site-header{
+        flex: initial;
+        width: 100px;
+        padding: 0;
+        .wrapper {
+            position: absolute;
+            flex-direction: column;
+            background: $nord9;
+            width: 100px;
+            height: 150px;
+            border-radius: 5px;
+            padding: 15px;
+        }
+    }
+    .page-content {
+        width: $content-width;
+    }
+
+    .site-footer {
+        width: $content-width;
+        margin: 0 auto;
+    }
     .menu-icon {
       visibility: hidden;
-    .site-header{
-        .wrapper {
-            display: flex;
-            justify-content: left;
-            align-items: flex-end;
-            .site-title {
-                margin-right: 50px;
-            }
-        }
     }
 }
 
 
-    .navbar-fixed {
-        position: fixed;
-        padding-top: 0px;
-        }
+.navbar-fixed {
+    position: fixed;
+    padding-top: 0px;
 }
 
 
