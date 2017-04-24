@@ -124,6 +124,9 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 .post-meta {
     color: $nord9;
 }
+.img-circle {
+    border-radius: 50%;
+}
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
