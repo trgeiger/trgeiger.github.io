@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/tayler
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://tayler.me
+  * I am tayler (https://keybase.io/tayler) on keybase.
+  * I have a public key ASDGlHOtSbsnxzeK8wSkuwspJctDm3F916raA-4O_VpduQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c69473ad49bb27c7378af304a4bb0b2925cb439b717dd7aada03ee0efd5a5db90a",
+            "host": "keybase.io",
+            "kid": "0120c69473ad49bb27c7378af304a4bb0b2925cb439b717dd7aada03ee0efd5a5db90a",
+            "uid": "9027b2cc988319db48324b3db42d9d19",
+            "username": "tayler"
+        },
+        "service": {
+            "hostname": "tayler.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.21"
+    },
+    "ctime": 1492893401,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1492893383,
+        "hash": "585add97ddc3141b0ce91cf344369065c0c246b57f9c4597a37adfbafe9f2dbc457b25f812dc219158fdc10b232f7f081afef3553e7b08a215301995f74397c1",
+        "seqno": 1033386
+    },
+    "prev": "21aa41cec39a8e9ebd18b354595b6f1141e0831c043f21168499611ea05e4ee1",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxpRzrUm7J8c3ivMEpLsLKSXLQ5txfdeq2gPuDv1aXbkKp3BheWxvYWTFAu97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzY5NDczYWQ0OWJiMjdjNzM3OGFmMzA0YTRiYjBiMjkyNWNiNDM5YjcxN2RkN2FhZGEwM2VlMGVmZDVhNWRiOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzY5NDczYWQ0OWJiMjdjNzM3OGFmMzA0YTRiYjBiMjkyNWNiNDM5YjcxN2RkN2FhZGEwM2VlMGVmZDVhNWRiOTBhIiwidWlkIjoiOTAyN2IyY2M5ODgzMTlkYjQ4MzI0YjNkYjQyZDlkMTkiLCJ1c2VybmFtZSI6InRheWxlciJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoidGF5bGVyLm1lIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMSJ9LCJjdGltZSI6MTQ5Mjg5MzQwMSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDkyODkzMzgzLCJoYXNoIjoiNTg1YWRkOTdkZGMzMTQxYjBjZTkxY2YzNDQzNjkwNjVjMGMyNDZiNTdmOWM0NTk3YTM3YWRmYmFmZTlmMmRiYzQ1N2IyNWY4MTJkYzIxOTE1OGZkYzEwYjIzMmY3ZjA4MWFmZWYzNTUzZTdiMDhhMjE1MzAxOTk1Zjc0Mzk3YzEiLCJzZXFubyI6MTAzMzM4Nn0sInByZXYiOiIyMWFhNDFjZWMzOWE4ZTllYmQxOGIzNTQ1OTViNmYxMTQxZTA4MzFjMDQzZjIxMTY4NDk5NjExZWEwNWU0ZWUxIiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAT0t7BLat4OMC2enDxDRvkWU6jk1jMWNoTXMyTCxRX7LS8PEOecSmEKgHcuYwHpJ1oFVxajgyknqvPWPI2hyIDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHol+7nRQCVt13b+9xF71gEVoq1xS3Ts9sJ4/1zP7T5vo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tayler
+
+==================================================================
