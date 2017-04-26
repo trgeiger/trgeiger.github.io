@@ -41,6 +41,14 @@ $on-laptop:        800px;
 // Import partials from the `minima` theme.
 @import "minima";
 
+* {
+    margin: 0;
+}
+
+.page {
+    min-height: calc(100vh - 140px);
+}
+
 
 // Highlight color settings
 ::-moz-selection { /* Code for Firefox */
@@ -60,13 +68,12 @@ $on-laptop:        800px;
 }
 
 .site-footer {
+    height: 75px;
     border-style: none;
 }
 
-.social-media-list {
-    display: flex;
-    justify-content: space-around;
-    width: 25%;
+.social-media-list li {
+    display: inline;
 }
 
 .social-media-list .fa, .copyright {
@@ -124,8 +131,15 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 .post-meta {
     color: $nord9;
 }
+
 .img-circle {
     border-radius: 50%;
+}
+
+.bio-img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 15px;
 }
 
 /* Mobile Styles */
@@ -141,7 +155,7 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 }
 
 // tablet and monitor-sized styles
-@media only screen and (min-width: 401px) and (max-width: 961px) {
+@media only screen and (min-width: 401px) and (max-width: 960px) {
     .bio-img {
         display: none;
     }
@@ -153,6 +167,8 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
             .site-title {
                 margin-right: 50px;
             }
+            .trigger {
+            }
         }
     }
 }
@@ -160,20 +176,37 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
     .page {
-        width: 1100px;
+        width: 920px;
         margin: 0 auto;
     }
+    .page-content {
+        .wrapper {
+            margin: 0 0 0 auto;
+            padding: 0 0 0 30px;
+        }
+    }
     .site-header {
-        
         position: absolute;
         padding-top: 185px;
         .wrapper {
-            
+            text-align: center;
             flex-direction: column;
             justify-content: space-between;
             padding-left: 20px;
-            width: 60px;
+            width: 100px;
+            .trigger {
+                text-align: center;
+                .page-link {
+                    margin: 0;
+                }
+            }
       }
+  }
+  .site-footer {
+      position: relative;
+      margin: 0 auto;
+      left: -110px;
+      width: 400px;
   }
   .navbar-fixed {
     position: fixed;
