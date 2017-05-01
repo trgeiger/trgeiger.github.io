@@ -136,6 +136,11 @@ h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
     border-radius: 50%;
 }
 
+img + em {
+    display: block;
+    text-align: center;
+}
+
 .bio-img {
     height: 100px;
     width: 100px;
