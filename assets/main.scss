@@ -76,7 +76,7 @@ $on-laptop:        800px;
     display: inline;
 }
 
-.social-media-list .fa, .copyright {
+.social-media-list .fa, .license {
     color: $nord10;
 }
 
@@ -87,6 +87,10 @@ $on-laptop:        800px;
 
 .site-title {
     font-size: 30px;
+}
+
+.license {
+    font-size: 14px;
 }
 
 .site-title:link, .site-title:visited, .page-link:link, .page-link:visited {
