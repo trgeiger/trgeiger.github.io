@@ -16,7 +16,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       $nord0;
-$background-color: $nord4;
+$background-color: #FFF;
 $brand-color:      #5E81AC;
 
 $grey-color:       $nord3;
@@ -52,17 +52,17 @@ $on-laptop:        800px;
 
 // Highlight color settings
 ::-moz-selection { /* Code for Firefox */
-    color: $nord4;
+    color: #FFF;
     background: $nord11;
 }
 
 ::selection {
-    color: $nord4;
+    color: #FFF;
     background: $nord11;
 }
 
 .site-header {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Overpass', sans-serif;
     border-style: none;
     margin-bottom: 30px;
 }
@@ -110,7 +110,7 @@ body {
 
 
 h1, h2, .page-heading, .post-header, .post-link:link, .post-link:visited {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Overpass', sans-serif;
     color: $nord1;
 }
 
