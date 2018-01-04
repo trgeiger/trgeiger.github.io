@@ -5,9 +5,9 @@ permalink: /portfolio/
 ---
 
 ## TECHNOLOGY SUMMARY
-Languages: Python, Ruby, HTML, CSS, JavaScript, SQL
+Languages: PHP, Python, Ruby, HTML, CSS, JavaScript, SQL
 
-Web Development: Flask, WebApp2, Jinja2 Templating Engine, Git
+Web Development: Drupal, Wordpress, Flask, WebApp2, Jinja2, Git
 
 Education: LaunchCode Summer of Code (Python Essentials, Intermediate Web Development, Java Back End)
 
@@ -28,7 +28,14 @@ Recipient of 2014 and 2015 James Merrill Prize for Poetry and 2015 Undergraduate
 
 
 ## PROFESSIONAL EXPERIENCE
+
+### Currently: Web Developer, Washington University in St. Louis
+
+Design, manage, code, and maintain all web sites for the 40+ departments in Arts & Sciences. Develop internal Drupal modules. Work with content strategy team to adhere to accessibility standards and create a world class user experience.
+
 ### Information Security Engineer, CenturyLink
+
+2016 - 2017
 
 SIEM monitoring, workstation triage, malware reverse engineering, domain and IP tracking, and threat analysis.
 Developing internal tools using Python and automated incident alerts.
