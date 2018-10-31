@@ -4,55 +4,22 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-## TECHNOLOGY SUMMARY
-Languages: PHP, Python, Ruby, HTML, CSS, JavaScript, SQL
+I currently work as a web developer for the Arts & Sciences Computing team at my alma mater, Washington University in St. Louis. I help build, maintain, and improve over 40 Drupal websites for our various academic departments, from English Lit to Chemistry.
 
-Web Development: Drupal, Wordpress, Flask, WebApp2, Jinja2, Git
+Some of the technologies that I use daily include PHP, HTML/CSS, JS, Linux, macOS, Apache, Git, and SQL&mdash;the full stack.
 
-Education: LaunchCode Summer of Code (Python Essentials, Intermediate Web Development, Java Back End)
+I also have experience with Java, Python, Ruby, and C++. I'm always learning more.
 
+Some of my *favorite* technologies and open source projects are Mozilla Firefox, KDE Plasma, Linux, (Neo)Vim, Arch Linux, and (K)Ubuntu.
 
-## PROJECTS
+You can see a few of my projects below. For a detailed breakdown of my work history, please visit my [LinkedIn](https://linkedin.com/in/taylergeiger). Feel free to reach out there or by email.
+
+---
+
 ### [TrumPoems](https://twitter.com/PresTrumpBot)
 
-Generates tweets every hour using Markov chains based on old tweets to generate natural-looking nonsense.
+Generates tweets every hour using Markov chains based on old tweets to generate natural-looking nonsense (no longer active, but you can look at old posts).
 
 
 ### [Brew - Web App](https://brewcoffee.herokuapp.com)
 Utilizing Flask web framework and associated plugins for user authentication, databasing, and design experience.
-
-### Writing
-Published work in Word Riot, Unshod Quills poetry magazines, and Enquiry philosophy magazine.
-
-Recipient of 2014 and 2015 James Merrill Prize for Poetry and 2015 Undergraduate Fiction Prize.
-
-
-## PROFESSIONAL EXPERIENCE
-
-### Currently: Web Developer, Washington University in St. Louis
-
-Design, manage, code, and maintain all web sites for the 40+ departments in Arts & Sciences. Develop internal Drupal modules. Work with content strategy team to adhere to accessibility standards and create a world class user experience.
-
-### Information Security Engineer, CenturyLink
-
-2016 - 2017
-
-SIEM monitoring, workstation triage, malware reverse engineering, domain and IP tracking, and threat analysis.
-Developing internal tools using Python and automated incident alerts.
-
-### Assistant Director of Undergraduate Admissions, Washington University in St. Louis
-
-2015 - 2016
-
-Reviewed 2nd highest number of freshmen applications in the office with online file system.
-Utilized and guided coworkers in the use of new office technologies and remote work.
-Traveled to Kansas City, Pittsburgh, and Philadelphia for school visits, information sessions, and college fairs.
-Supervise student hosting program, as well as large visit weekends.
-Daily duties included hour-long information sessions and interviewing prospective students.
-
-
-
-## EDUCATION
-Bachelor of Arts, Double Major in English Literature with Creative Writing Focus & Philosophy
-
-Washington University in St. Louis, May 2015
