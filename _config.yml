@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Personal blog, portfolio, and project site of writer and developer Tayler Geiger.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tayler.me" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: red_doxie
+linkedin_username: taylergeiger
 github_username:  trgeiger
 gitlab_username: trgeiger
 
