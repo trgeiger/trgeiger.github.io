@@ -28,4 +28,4 @@ Generates tweets every hour using Markov chains based on old tweets to generate 
 
 ### Brew Web App
 [![Brew - Web App](/assets/img/brew.png)](https://brewcoffee.herokuapp.com)
-Utilizing Flask web framework and associated plugins for user authentication, databasing, and design experience.
+This is actually what I built to teach myself web development in the first place&mdash;proof-of-concept that I could build a functional website. It's using the Flask Python web framework and associated plugins to provide a full user authentication experience. A user can store logs about coffee they've brewed in a pretty, responsive web app. All the pretty stylistic elements aren't finished, but the core functionality is there.
